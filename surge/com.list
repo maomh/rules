@@ -1,0 +1,12 @@
+# Company Security Rules
+
+PROCESS-NAME,/Library/Sentinel/sentinel-agent.bundle/Contents/MacOS/sentineld.app/Contents/MacOS/sentineld
+PROCESS-NAME,"/Applications/Self Service+.app/Contents/MacOS/Jamf Connect.app/Contents/MacOS/Jamf Connect"
+PROCESS-NAME,/opt/rapid7/ir_agent/components/insight_agent/4.0.19.57/ir_agent
+PROCESS-NAME,/usr/local/jamf/bin/jamf
+
+DOMAIN-SUFFIX,jamfcloud.com
+DOMAIN-SUFFIX,rapid7.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,jamfcloud.com
+DOMAIN-SUFFIX,sentinelone.net
